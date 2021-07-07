@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="helPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HelpWindowController">
+   <content>
+      <Label fx:id="helpLabel" layoutY="6.0" prefWidth="300.0" text="Hello pirate! Your goal in this game is to find the treasure chest.You can move your ship either by using the arrow keys, the numpad keys or by dragging the ship with your mouse.If you can’t find the way, don’t worry! You can press the solve button in the menu bar, to get the path to the treasure. Then just follow the rum bottles – don’t forget to drink them.You can also press Ctrl and scroll your mouse up/down to zoom in/out.At any time, you can use the menu bar to start a new game – press File-&gt;New. You can also use it to save your current game or load an old one, or to change the game preferences – changing algorithms for solving or generating the maze." textAlignment="CENTER" wrapText="true" />
+   </content>
+   <stylesheets>
+      <URL value="@style" />
+   </stylesheets>
+</ScrollPane>

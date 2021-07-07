@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import View.MazeDisplayer?>
+<GridPane fx:id="GridPane1" onMouseClicked="#mouseCLicked" prefHeight="268.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="25.0">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="433.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#MenuBarNewPressed" text="New" />
+                        <MenuItem mnemonicParsing="false" onAction="#MenuBarSavePressed" text="Save" />
+                        <MenuItem mnemonicParsing="false" onAction="#MenuBarLoadPressed" text="Load" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Options">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#MenuBarPropertiesPressed" text="Properties" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" onAction="#MenuBarExitPressed" text="Exit" />
+                  <Menu mnemonicParsing="false" onAction="#MenuBarHelpPressed" text="Help" />
+                  <Menu mnemonicParsing="false" onAction="#MenuBarAboutPressed" text="About" />
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+      <Pane fx:id="MazePane" onMouseClicked="#mouseCLicked" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+          <MazeDisplayer fx:id="MazeDisplayer"  imageFileNamePlayer="./resources/thisboat.png" imageFileNameSea="./resources/Sea1.jpg" imageFileNameWall="./resources/ThisSand.jpg" onKeyPressed="#keyPressed"  />
+      </Pane>
+   </children>
+</GridPane>

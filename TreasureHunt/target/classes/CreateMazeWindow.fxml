@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox onKeyPressed="#keyPressed" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.CreateMazeWindow">
+   <children>
+      <Label fx:id="label_mazeSize" text="Choose Your Maze Size" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="label_rowNum" text="Number of rows:        " />
+            <TextField fx:id="new_maze_rows" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" >
+         <children>
+            <Label fx:id="label_colNum" text="Number of columns:  " />
+            <TextField fx:id="new_maze_columns" />
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#generateMaze" text="Generate" />
+   </children>
+</VBox>

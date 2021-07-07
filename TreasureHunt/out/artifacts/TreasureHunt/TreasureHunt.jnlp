@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TreasureHunt.jnlp">
+  <information>
+    <title>TreasureHunt</title>
+    <vendor>Unknown</vendor>
+    <description>TreasureHunt</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ATPProjectJAR.jar" size="57653" download="eager" />
+    <jar href="TreasureHunt.jar" size="7431028" download="eager" />
+    <jar href="log4j-api-2.14.1.jar" size="300365" download="eager" />
+    <jar href="log4j-core-2.14.1.jar" size="1745700" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.barosanu.Launcher"  name="TreasureHunt" />
+  <update check="background"/>
+</jnlp>

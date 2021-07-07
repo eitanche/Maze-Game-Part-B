@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import View.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="GridPane1" onMouseClicked="#mouseCLicked" onScroll="#mouseScrolled" prefHeight="268.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="33.0">
+            <children>
+                <MenuBar fx:id="menuBar" prefHeight="33.0" prefWidth="433.0" >
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#MenuBarNewPressed" text="New" />
+                                <MenuItem fx:id="saveButton" disable="true" mnemonicParsing="false" onAction="#MenuBarSavePressed" text="Save" />
+                                <MenuItem mnemonicParsing="false" onAction="#MenuBarLoadPressed" text="Load" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Options">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#MenuBarPropertiesPressed" text="Properties" />
+                                <MenuItem fx:id="MuteButton" mnemonicParsing="false" onAction="#MenuBarMusicOff" text="Mute" />
+                                <MenuItem fx:id="UnMuteButton" mnemonicParsing="false" onAction="#MenuBarMusicOn" text="Unmute" disable="true" />
+                            </items>
+                        </Menu>
+                        <Menu fx:id="exitButton" mnemonicParsing="false" text="" />
+                        <Menu fx:id="helpButton" mnemonicParsing="false" text="" />
+                        <Menu fx:id="aboutButton" mnemonicParsing="false" text="" />
+                        <Menu fx:id="solveButton" disable="true" mnemonicParsing="false" text="" />
+                    </menus>
+                </MenuBar>
+            </children>
+        </Pane>
+        <Pane fx:id="MazePane" onMouseClicked="#mouseCLicked" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+            <MazeDisplayer fx:id="MazeDisplayer" imageFileNamePlayer="./resources/boat5.png" imageFileNameSea="./resources/Sea1.jpg" imageFileNameSolution="./resources/rumBottle1.png"
+                           imageFileNameWall="./resources/sand2.jpg" onKeyPressed="#keyPressed" onMouseDragged="#mouseDragged" imageFileNameGoal="./resources/treasure2.jpg"
+                           imageFileNameWallAdding="./resources/skeleton3.png" onMousePressed="#mouseDragEntered" onMouseReleased="#mouseDragReleased" />
+        </Pane>
+    </children>
+</GridPane>

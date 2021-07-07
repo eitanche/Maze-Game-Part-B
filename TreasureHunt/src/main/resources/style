@@ -1,0 +1,132 @@
+/*@font-face {
+    font-family: 'dd';
+    src: url('../../resources/Ananda.ttf');
+}*/
+
+.root {
+    -fx-background-image: url("../../resources/othersWindows1.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+}
+
+.image{
+    -fx-width: 100%;
+    -fx-height: 100%;
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-opacity: 0.6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background: black;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+.unique{
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-font-color: white;
+    -fx-text-fill: #00CCCC;
+    -fx-text-weight: bold;
+    -fx-font-family: "dd";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1)
+}
+
+.label{
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-font-color: white;
+    -fx-text-fill: #00CCCC;
+    -fx-text-weight: bold;
+    -fx-font-family: "dd";
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1)
+}
+
+.menu-bar {
+    -fx-background-color: dimgray;
+    -fx-opacity: 0.5;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-color: black;
+    -fx-font-weight: bold;
+
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background: -fx-accent;
+    -fx-background-color: cadetblue;
+    -fx-opacity: 0.8;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+
+
+.menu-item {
+    -fx-background-color: dimgray;
+    -fx-padding: 0em 0em 0em 0em;
+    -fx-text-fill: white;
+}
+
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: cadetblue;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+    -fx-opacity: 0.5;
+
+}
+.context-menu:hover{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: dimgray;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+    -fx-opacity: 0.5;
+}
+
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 100 100 100 100;
+    -fx-background-color: teal;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1)
+}
+
+Button:hover {
+    -fx-background-color: gold;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 100 100 100 100;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: black;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.scroll-pane .viewport {
+    -fx-background-image: url("../../resources/othersWindows1.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: null;
+}
+
+.choice-box{
+    -fx-background-radius: 100 100 100 100;
+    -fx-background-color: black;
+    -fx-opacity: 0.6;
+}
+

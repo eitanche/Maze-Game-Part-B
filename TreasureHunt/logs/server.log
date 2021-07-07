@@ -1,0 +1,191 @@
+2021.06.17 00:09:40.639 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:09:40.639 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:09:44.967 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60197,localport=5400]
+2021.06.17 00:09:44.978 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 4X4 maze in 0seconds
+2021.06.17 00:09:44.978 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60197,localport=5400]
+2021.06.17 00:10:08.589 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60199,localport=5400]
+2021.06.17 00:10:08.591 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 4X4 maze in 0seconds
+2021.06.17 00:10:08.591 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60199,localport=5400]
+2021.06.17 00:10:15.473 INFO  Server.Server - Stopping  Server
+2021.06.17 00:10:15.473 INFO  Server.Server - Stopping  Server
+2021.06.17 00:10:34.310 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:10:34.310 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:11:27.574 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60214,localport=5400]
+2021.06.17 00:11:27.578 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 5X5 maze in 0seconds
+2021.06.17 00:11:27.578 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60214,localport=5400]
+2021.06.17 00:11:58.563 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60220,localport=5400]
+2021.06.17 00:11:58.564 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 4X4 maze in 0seconds
+2021.06.17 00:11:58.564 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60220,localport=5400]
+2021.06.17 00:12:06.884 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60221,localport=5400]
+2021.06.17 00:12:06.917 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 100X100 maze in 0seconds
+2021.06.17 00:12:06.917 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60221,localport=5400]
+2021.06.17 00:12:11.209 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60223,localport=5401]
+2021.06.17 00:12:11.273 INFO  Server.ServerStrategySolveSearchProblem - Solver Server solved the maze in 0 seconds
+2021.06.17 00:12:11.273 INFO  Server.ServerStrategySolveSearchProblem - Maze size: 100X100, Solution length: 1946
+2021.06.17 00:12:11.365 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60223,localport=5401]
+2021.06.17 00:12:33.557 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60227,localport=5400]
+2021.06.17 00:12:33.559 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 4X4 maze in 0seconds
+2021.06.17 00:12:33.559 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60227,localport=5400]
+2021.06.17 00:12:40.135 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=60228,localport=5401]
+2021.06.17 00:12:40.139 INFO  Server.ServerStrategySolveSearchProblem - Solver Server solved the maze in 0 seconds
+2021.06.17 00:12:40.140 INFO  Server.ServerStrategySolveSearchProblem - Maze size: 4X4, Solution length: 5
+2021.06.17 00:12:40.140 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=60228,localport=5401]
+2021.06.17 00:13:27.624 INFO  Server.Server - Stopping  Server
+2021.06.17 00:13:27.625 INFO  Server.Server - Stopping  Server
+2021.06.17 00:14:22.422 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:14:22.422 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:14:29.502 INFO  Server.Server - Stopping  Server
+2021.06.17 00:14:29.502 INFO  Server.Server - Stopping  Server
+2021.06.17 00:15:01.539 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:15:01.539 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:15:08.303 INFO  Server.Server - Stopping  Server
+2021.06.17 00:15:08.303 INFO  Server.Server - Stopping  Server
+2021.06.17 00:15:22.926 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:15:22.926 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:15:34.941 INFO  Server.Server - Stopping  Server
+2021.06.17 00:15:34.941 INFO  Server.Server - Stopping  Server
+2021.06.17 00:15:58.108 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:15:58.108 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:16:12.171 INFO  Server.Server - Stopping  Server
+2021.06.17 00:16:12.171 INFO  Server.Server - Stopping  Server
+2021.06.17 00:16:20.299 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:16:20.299 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:16:25.281 INFO  Server.Server - Stopping  Server
+2021.06.17 00:16:25.281 INFO  Server.Server - Stopping  Server
+2021.06.17 00:16:41.763 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:16:41.763 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:16:51.727 INFO  Server.Server - Stopping  Server
+2021.06.17 00:16:51.727 INFO  Server.Server - Stopping  Server
+2021.06.17 00:17:10.733 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:17:10.733 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:17:23.472 INFO  Server.Server - Stopping  Server
+2021.06.17 00:17:23.472 INFO  Server.Server - Stopping  Server
+2021.06.17 00:17:30.992 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:17:30.992 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:17:43.989 INFO  Server.Server - Stopping  Server
+2021.06.17 00:17:43.989 INFO  Server.Server - Stopping  Server
+2021.06.17 00:18:04.361 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:18:04.361 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:18:11.194 INFO  Server.Server - Stopping  Server
+2021.06.17 00:18:11.194 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:04.050 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:19:04.050 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:19:05.507 FATAL Server.Server - IOException at opening  Server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_241]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_241]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_241]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_241]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_241]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_241]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_241]
+	at Server.Server.runServer(Server.java:56) ~[ATPProjectJAR.jar:?]
+	at Server.Server.lambda$start$0(Server.java:47) ~[ATPProjectJAR.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+2021.06.17 00:19:05.507 FATAL Server.Server - IOException at opening  Server
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method) ~[?:1.8.0_241]
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106) ~[?:1.8.0_241]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_241]
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190) ~[?:1.8.0_241]
+	at java.net.ServerSocket.bind(ServerSocket.java:375) ~[?:1.8.0_241]
+	at java.net.ServerSocket.<init>(ServerSocket.java:237) ~[?:1.8.0_241]
+	at java.net.ServerSocket.<init>(ServerSocket.java:128) ~[?:1.8.0_241]
+	at Server.Server.runServer(Server.java:56) ~[ATPProjectJAR.jar:?]
+	at Server.Server.lambda$start$0(Server.java:47) ~[ATPProjectJAR.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+2021.06.17 00:19:15.826 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:15.826 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:16.984 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:16.985 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:29.484 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:19:29.484 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:19:35.320 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:35.320 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:41.912 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:19:41.912 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:19:51.494 INFO  Server.Server - Stopping  Server
+2021.06.17 00:19:51.494 INFO  Server.Server - Stopping  Server
+2021.06.17 00:20:14.468 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:20:14.468 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:20:24.827 INFO  Server.Server - Stopping  Server
+2021.06.17 00:20:24.827 INFO  Server.Server - Stopping  Server
+2021.06.17 00:20:33.096 INFO  Server.Server -  Server started at port 5401
+2021.06.17 00:20:33.096 INFO  Server.Server -  Server started at port 5400
+2021.06.17 00:21:15.052 INFO  Server.Server - Stopping  Server
+2021.06.17 00:21:15.053 INFO  Server.Server - Stopping  Server
+2021.06.17 18:54:54.660 INFO  Server.Server -  Server started at port 5401
+2021.06.17 18:54:54.660 INFO  Server.Server -  Server started at port 5400
+2021.06.17 18:55:05.781 INFO  Server.Server - Stopping  Server
+2021.06.17 18:55:05.782 INFO  Server.Server - Stopping  Server
+2021.06.17 18:55:28.355 INFO  Server.Server -  Server started at port 5400
+2021.06.17 18:55:28.355 INFO  Server.Server -  Server started at port 5401
+2021.06.17 18:55:32.443 INFO  Server.Server - Stopping  Server
+2021.06.17 18:55:32.444 INFO  Server.Server - Stopping  Server
+2021.06.17 18:55:56.445 INFO  Server.Server -  Server started at port 5401
+2021.06.17 18:55:56.445 INFO  Server.Server -  Server started at port 5400
+2021.06.17 18:56:02.408 INFO  Server.Server - Stopping  Server
+2021.06.17 18:56:02.409 INFO  Server.Server - Stopping  Server
+2021.06.17 18:56:29.220 INFO  Server.Server -  Server started at port 5401
+2021.06.17 18:56:29.220 INFO  Server.Server -  Server started at port 5400
+2021.06.17 18:56:34.293 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56787,localport=5400]
+2021.06.17 18:56:34.311 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 18:56:34.312 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56787,localport=5400]
+2021.06.17 18:56:38.248 INFO  Server.Server - Stopping  Server
+2021.06.17 18:56:38.249 INFO  Server.Server - Stopping  Server
+2021.06.17 18:58:52.785 INFO  Server.Server -  Server started at port 5401
+2021.06.17 18:58:52.785 INFO  Server.Server -  Server started at port 5400
+2021.06.17 18:58:56.964 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56805,localport=5400]
+2021.06.17 18:58:56.978 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 18:58:56.978 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56805,localport=5400]
+2021.06.17 18:59:35.254 INFO  Server.Server - Stopping  Server
+2021.06.17 18:59:35.255 INFO  Server.Server - Stopping  Server
+2021.06.17 19:02:03.983 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:02:03.983 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:02:07.601 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56822,localport=5400]
+2021.06.17 19:02:07.616 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 4X4 maze in 0seconds
+2021.06.17 19:02:07.616 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56822,localport=5400]
+2021.06.17 19:02:13.059 INFO  Server.Server - Stopping  Server
+2021.06.17 19:02:13.060 INFO  Server.Server - Stopping  Server
+2021.06.17 19:02:17.918 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:02:17.918 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:02:21.098 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56829,localport=5400]
+2021.06.17 19:02:21.113 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:02:21.113 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56829,localport=5400]
+2021.06.17 19:02:43.820 INFO  Server.Server - Stopping  Server
+2021.06.17 19:02:43.821 INFO  Server.Server - Stopping  Server
+2021.06.17 19:03:10.992 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:03:10.992 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:03:14.129 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56837,localport=5400]
+2021.06.17 19:03:14.144 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:03:14.144 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56837,localport=5400]
+2021.06.17 19:03:24.560 INFO  Server.Server - Stopping  Server
+2021.06.17 19:03:24.561 INFO  Server.Server - Stopping  Server
+2021.06.17 19:03:52.497 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:03:52.497 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:03:56.380 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56845,localport=5400]
+2021.06.17 19:03:56.396 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:03:56.396 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56845,localport=5400]
+2021.06.17 19:04:02.998 INFO  Server.Server - Stopping  Server
+2021.06.17 19:04:02.998 INFO  Server.Server - Stopping  Server
+2021.06.17 19:04:07.586 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:04:07.586 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:04:11.698 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56851,localport=5400]
+2021.06.17 19:04:11.714 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:04:11.715 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56851,localport=5400]
+2021.06.17 19:04:22.228 INFO  Server.Server - Stopping  Server
+2021.06.17 19:04:22.230 INFO  Server.Server - Stopping  Server
+2021.06.17 19:04:58.651 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:04:58.651 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:05:22.117 INFO  Server.Server - Stopping  Server
+2021.06.17 19:05:22.120 INFO  Server.Server - Stopping  Server
+2021.06.17 19:05:40.304 INFO  Server.Server -  Server started at port 5401
+2021.06.17 19:05:40.304 INFO  Server.Server -  Server started at port 5400
+2021.06.17 19:05:43.926 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56868,localport=5400]
+2021.06.17 19:05:43.941 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:05:43.943 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56868,localport=5400]
+2021.06.17 19:06:05.723 INFO  Server.Server -  Server accepted a client: Socket[addr=/192.168.68.116,port=56870,localport=5400]
+2021.06.17 19:06:05.726 INFO  Server.ServerStrategyGenerateMaze - Generator server created a 10X10 maze in 0seconds
+2021.06.17 19:06:05.727 INFO  Server.Server -  Server done handling client: Socket[addr=/192.168.68.116,port=56870,localport=5400]
+2021.06.17 19:06:08.127 INFO  Server.Server - Stopping  Server
+2021.06.17 19:06:08.128 INFO  Server.Server - Stopping  Server
